@@ -1,12 +1,12 @@
 import React from "react";
 import { Element } from "react-scroll";
 import "./Projects.css";
-import Weather from "../../assets/Images/weather.jpg";
-import Calculator from "../../assets/Images/calculator.jpg";
-import Foodfly from "../../assets/Images/foodfly.jpg";
-import Quiz from "../../assets/Images/quiz.jpg";
-import amazon from "../../assets/Images/amazon.jpg";
-import Todolist from "../../assets/Images/Todolist.jpg";
+import Weather from "../../assets/images/weather.jpg";
+import Calculator from "../../assets/images/calculator.jpg";
+import Foodfly from "../../assets/images/foodfly.jpg";
+import Quiz from "../../assets/images/quiz.jpg";
+import amazon from "../../assets/images/amazon.jpg";
+import Todolist from "../../assets/images/Todolist.jpg";
 
 function Projects() {
   return (

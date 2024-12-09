@@ -1,6 +1,6 @@
 import React from "react";
 import "./SectionOne.css";
-import Profile from "../../assets/Images/profile (2).jpg";
+import Profile from "../../assets/images/profile (2).jpg";
 import PDF from "../../assets/PDF/Resume.pdf";
 import { FaInstagram, FaLinkedin, FaTwitter, FaGithub } from 'react-icons/fa';
 import { Element } from "react-scroll";
