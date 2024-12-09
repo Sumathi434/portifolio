@@ -1,0 +1,70 @@
+.projectsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px 10rem;
+    box-sizing: border-box;
+}
+
+.projects {
+    color: #15F5BA;
+    text-align: center;
+    margin: 10rem 0 5rem 0;
+    font-size: 34px;
+}
+
+.project {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    width: 380px;
+    height: 270px;
+}
+
+.project img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.project img:hover {
+    transform: scale(1.05);
+}
+
+.project .overlay {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 119, 255, 0.389);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: bottom 0.5s ease;
+    border-radius: 8px;
+}
+
+.project:hover .overlay {
+    bottom: 0;
+}
+
+.overlay a h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.overlay a {
+    text-decoration: none;
+}
+
+.project:hover .overlay a h3 {
+    transform: scale(1.1);
+    opacity: 1;
+}

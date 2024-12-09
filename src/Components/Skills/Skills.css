@@ -1,0 +1,100 @@
+.skillscontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2rem 5rem;
+  padding: 20px;
+  gap: 20px;
+  color: white;
+  border: 1px solid #1C1427;
+  box-shadow: 0 0 10px #15F5BA;
+  border-radius: 10px;
+}
+
+.skill {
+  color: #15F5BA;
+  text-align: center;
+  margin-top: 15rem;
+}
+
+.skillSection {
+  width: 48%;
+  box-sizing: border-box;
+}
+
+.skillSection h2 {
+  color: white;
+}
+
+.skillSection label {
+  color: white;
+  margin-top: 30px;
+}
+
+.slider-range {
+  position: relative;
+  margin: 15px 0;
+  width: 100%;
+}
+
+input[type="range"] {
+  width: 80%;
+  height: 5px;
+  background: #ddd;
+  border-radius: 5px;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 14px;
+  border-radius: 5px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: #06D001;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid #fff;
+}
+
+input[type="range"]:focus {
+  outline: none;
+}
+
+/* Tooltip Styling */
+.tooltip {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #15F5BA;
+  color: #1D2B53;
+  padding: 2px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+
+.extraSkills {
+  width: 48%;
+  box-sizing: border-box;
+  text-align: justify;
+
+}
+
+ul li {
+  list-style-type: decimal;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+ul li p {
+  font-weight: 400;
+  color: #15F5BA;
+}
