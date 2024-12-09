@@ -1,7 +1,7 @@
 import React from "react";
 import "./Mainsection.css";
-import Profile from "../../assets/images/profile_image.jpg";
-import PDF from "../../assets/PDF/Resume.pdf";
+import Profile from "../../images/profile_image.jpg";
+import PDF from "../../images/Resume.pdf";
 import { FaInstagram, FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
 import { Element } from "react-scroll";
 

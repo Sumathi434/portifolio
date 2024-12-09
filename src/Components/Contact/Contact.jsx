@@ -1,7 +1,7 @@
 import React from "react";
 import { Element } from "react-scroll";
 import "./Contact.css";
-import PDF from "../../assets/PDF/Resume.pdf";
+import PDF from "../../images/Resume.pdf";
 import { FaInstagram, FaLinkedin, FaTwitter, FaGithub } from 'react-icons/fa';
 
 function Contact() {
