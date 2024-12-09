@@ -1,11 +1,11 @@
 import React from "react";
-import "./SectionOne.css";
-import Profile from "../../assets/images/profile (2).jpg";
+import "./Mainsection.css";
+import Profile from "../../assets/images/profile2.jpg";
 import PDF from "../../assets/PDF/Resume.pdf";
 import { FaInstagram, FaLinkedin, FaTwitter, FaGithub } from 'react-icons/fa';
 import { Element } from "react-scroll";
 
-function SectionOne() {
+function Mainsection() {
   return (
     <Element name="sectionOne">
       <main className="container">
@@ -54,4 +54,4 @@ function SectionOne() {
   );
 }
 
-export default SectionOne;
+export default Mainsection;

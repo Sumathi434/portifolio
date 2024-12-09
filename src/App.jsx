@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Components/Navbar/Navbar";
-import SectionOne from "./Components/SectionOne/SectionOne";
+import Mainsection from "./Components/Mainsection/Mainsection";
 import About from "./Components/About/About";
 import Skills from "./Components/Skills/Skills";
 import Projects from "./Components/Projects/Projects";
@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <SectionOne />
+      <Mainsection />
       <About/>
       <Skills/>
       <Projects/>
