@@ -16,7 +16,7 @@ function Projects() {
         <div className="project">
           <img src={amazon} alt="amazon" />
           <div className="overlay">
-            <a href="#">
+            <a href="https://amazonclonesuma.netlify.app/">
               <h3>Amazon Clone</h3>
             </a>
           </div>
